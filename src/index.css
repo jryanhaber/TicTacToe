@@ -47,5 +47,40 @@ ul {
 }
 
 .game-info {
- margin-left: 20px;
+ 
+ margin-right: 20px;
+ padding-right: 10px;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+.game-info button {
+ margin-bottom: 2px;
+ width: 100%;
+ line-height: 14px;
+}
+
+.game-info ol {
+ margin-left: 0px !important;
+ padding-left: 0px;
+ padding-top: 2px;
+}
+
+.game-info ul{
+margin-left: 0px !important;
+padding-right: 10px;
+padding-top: 2px !important;
+    padding-top: 20px;
+     padding-left: 0px;
+ }
+
+
+.game-board {
+  padding-left: 6vw;
+   min-width: 60vw;
+   padding-top: 6vw;
+}
+button.square {
+ margin: 0px;
+ width: 15vw;
+  height: 15vw;
 }

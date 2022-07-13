@@ -1,3 +1,16 @@
+
+# Demo of Cirrus and React 
+
+This is a simple Tic Tac Toe Game which has been styled with Cirrus UI, a potential boilerplate for simple Tic Tac Toe based games in React with CirrusUI Styles already loaded.  
+https://www.cirrus-ui.com/
+
+Create React App Guide to follow. 
+
+To demo, simply navigate to the root folder, run `npm run start` and then open [http://localhost:3000] in a browser
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

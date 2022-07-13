@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import 'cirrus-ui';
 
 function Square(props) {
   return (
@@ -101,9 +102,9 @@ class Game extends React.Component {
     const moves = history.map((step, move) => {
       const desc = move ? 'Go to move #' + move : 'Go to game start';
       return (
-        <li key={move}>
+        <ul key={move}>
           <button onClick={() => this.jumpTo(move)}>{desc}</button>
-        </li>
+        </ul>
       );
     });
     let status;
@@ -117,10 +118,7 @@ class Game extends React.Component {
     return (
       <div className="game">
         <div className="game-board">
-          <Board
-            squares={current.squares}
-            onClick={(i) => this.handleClick(i)}
-          />
+          <Board squares={current.squares} onClick={i => this.handleClick(i)} />
         </div>
         <div className="game-info">
           <div>{status}</div>
